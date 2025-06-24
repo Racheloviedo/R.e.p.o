@@ -9,7 +9,7 @@ float suma(float a, float b){
 }
 
 int main(){
-    int number1, number2;
+    float number1, number2;
 
     cout << "Please insert the numbers for the addition" << endl;
     cout << "first number: " << endl;
