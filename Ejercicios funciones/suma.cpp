@@ -4,9 +4,7 @@ using namespace std;
 //Función de Suma
 //Escribe una función que reciba dos números y devuelva su suma.
 
-float suma(float a, float b){
-    return a + b;
-}
+float suma(float a, float b);
 
 int main(){
     float number1, number2;
@@ -21,4 +19,8 @@ int main(){
     cout << suma(number1, number2) << endl;
     
     return 0;
+}
+
+float suma(float a, float b){
+    return a + b;
 }
